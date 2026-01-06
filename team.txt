@@ -1,0 +1,11 @@
+Trello:
+https://trello.com/invite/b/695d240af93ab932c551b42c/ATTIa3fab1420dead0f6e14a21868e2956d9F27016E7/wdd-330
+
+Render:
+https://dashboard.render.com/static/srv-d5eiqiqli9vc73dig1b0/deploys/dep-d5eiqj2li9vc73dig1k0
+
+Github:
+https://github.com/tedayley/WDD-330
+
+Team:
+Taeg Eldon Dayley
