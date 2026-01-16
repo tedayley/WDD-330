@@ -7,7 +7,7 @@ function convertToJson(res) {
 export default class ProductData {
   constructor(category) {
     this.category = category;
-    this.path = `../public/json/${this.category}.json`; // relative to main.js
+    this.path = `/Public_Json/${this.category}.json`; // relative to main.js
   }
 
   async getData() {
