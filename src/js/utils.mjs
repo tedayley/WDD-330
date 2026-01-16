@@ -21,3 +21,15 @@ export function setClick(selector, callback) {
   });
   qs(selector).addEventListener("click", callback);
 }
+
+// src/js/utils.mjs
+export function renderListWithTemplate(list, container, templateFunc) {
+  if (!Array.isArray(list)) {
+    console.error("Expected array but got:", list);
+    container.innerHTML = "<p>Error loading products.</p>";
+    return;
+  }
+
+  container.innerHTML = list.map(templateFunc).join("");
+}
+
