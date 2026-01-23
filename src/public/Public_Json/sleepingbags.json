@@ -1,0 +1,59 @@
+[
+  {
+    "Id": "SB001",
+    "NameWithoutBrand": "Alpine Sleeping Bag",
+    "Name": "Marmot Alpine Sleeping Bag",
+    "Image": "../images/test.png",
+    "SizesAvailable": {},
+    "Colors": [
+      { "ColorCode": "01", "ColorName": "Blue/Gray" }
+    ],
+    "DescriptionHtmlSimple": "Warm and durable sleeping bag suitable for cold weather camping.",
+    "SuggestedRetailPrice": 250.0,
+    "Brand": {
+      "Id": "4001",
+      "LogoSrc": "../images/logos/marmot-160x100.jpg",
+      "Name": "Marmot"
+    },
+    "ListPrice": 199.99,
+    "FinalPrice": 199.99
+  },
+  {
+    "Id": "SB002",
+    "NameWithoutBrand": "Cat's Meow Sleeping Bag",
+    "Name": "The North Face Cat's Meow Sleeping Bag",
+    "Image": "../images/test.png",
+    "SizesAvailable": {},
+    "Colors": [
+      { "ColorCode": "02", "ColorName": "Red/Black" }
+    ],
+    "DescriptionHtmlSimple": "Lightweight sleeping bag designed for three-season use.",
+    "SuggestedRetailPrice": 180.0,
+    "Brand": {
+      "Id": "4002",
+      "LogoSrc": "../images/logos/northface-160x100.jpg",
+      "Name": "The North Face"
+    },
+    "ListPrice": 159.99,
+    "FinalPrice": 159.99
+  },
+  {
+    "Id": "SB003",
+    "NameWithoutBrand": "Mummy Sleeping Bag",
+    "Name": "REI Mummy Sleeping Bag",
+    "Image": "../images/test.png",
+    "SizesAvailable": {},
+    "Colors": [
+      { "ColorCode": "03", "ColorName": "Green" }
+    ],
+    "DescriptionHtmlSimple": "Compact sleeping bag perfect for backpacking and weekend trips.",
+    "SuggestedRetailPrice": 150.0,
+    "Brand": {
+      "Id": "4003",
+      "LogoSrc": "../images/logos/rei-160x100.jpg",
+      "Name": "REI"
+    },
+    "ListPrice": 129.99,
+    "FinalPrice": 129.99
+  }
+]

@@ -46,10 +46,12 @@ function renderHeader(product, category) {
       <nav>
         <ul>
           <li><a href="../index.html">Home</a></li>
-          <li><a href="../product-listing.html?category=tents">Tents</a></li>
-          <li><a href="../product-listing.html?category=backpacks">Backpacks</a></li>
+          <li><a href="../product_pages/tents.html">Tents</a></li>
+          <li><a href="../product_pages/backpacks.html">Backpacks</a></li>
+          <li><a href="../product_pages/hammocks.html">Hammocks</a></li>
+          <li><a href="../product_pages/sleepingbags.html">Sleeping Bags</a></li>
           <li class="cart-link">
-            <a href="../cart.html">Cart</a>
+            <a href="../cart/index.html">Cart</a>
           </li>
         </ul>
       </nav>
@@ -61,6 +63,11 @@ function renderHeader(product, category) {
 
 function renderFooter(product, category) {
   const footer = document.querySelector("footer");
+
+  if (!product) {
+    footer.innerHTML = `<p>© ${new Date().getFullYear()} Sleep Outside</p>`;
+    return;
+  }
 
   const productName = product?.NameWithoutBrand || "Featured Outdoor Gear";
   const brand = product?.Brand?.Name || "Sleep Outside";
@@ -87,8 +94,8 @@ function renderFooter(product, category) {
 
 // Date and Time
 function updateDateTime() {
-  document.getElementById("datetime").textContent =
-    new Date().toLocaleString();
+  const dt = document.getElementById("datetime");
+  if (dt) dt.textContent = new Date().toLocaleString();
 }
 
 // Initialize header/footer

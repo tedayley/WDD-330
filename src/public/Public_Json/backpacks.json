@@ -1,0 +1,59 @@
+[
+  {
+    "Id": "BP001",
+    "NameWithoutBrand": "Atmos 65 Backpack",
+    "Name": "Osprey Atmos 65 Backpack",
+    "Image": "../images/test.png",
+    "SizesAvailable": {},
+    "Colors": [
+      { "ColorCode": "01", "ColorName": "Blue/Gray" }
+    ],
+    "DescriptionHtmlSimple": "Comfortable and lightweight backpack perfect for multi-day hikes.",
+    "SuggestedRetailPrice": 250.0,
+    "Brand": {
+      "Id": "2001",
+      "LogoSrc": "../images/logos/osprey-160x100.jpg",
+      "Name": "Osprey"
+    },
+    "ListPrice": 199.99,
+    "FinalPrice": 199.99
+  },
+  {
+    "Id": "BP002",
+    "NameWithoutBrand": "Borealis Backpack",
+    "Name": "The North Face Borealis Backpack",
+    "Image": "../images/test.png",
+    "SizesAvailable": {},
+    "Colors": [
+      { "ColorCode": "02", "ColorName": "Black/Red" }
+    ],
+    "DescriptionHtmlSimple": "Everyday backpack with multiple compartments and comfortable straps.",
+    "SuggestedRetailPrice": 150.0,
+    "Brand": {
+      "Id": "2002",
+      "LogoSrc": "../images/logos/northface-160x100.jpg",
+      "Name": "The North Face"
+    },
+    "ListPrice": 129.99,
+    "FinalPrice": 129.99
+  },
+  {
+    "Id": "BP003",
+    "NameWithoutBrand": "Kestrel 48 Backpack",
+    "Name": "Osprey Kestrel 48 Backpack",
+    "Image": "../images/test.png",
+    "SizesAvailable": {},
+    "Colors": [
+      { "ColorCode": "03", "ColorName": "Green/Gray" }
+    ],
+    "DescriptionHtmlSimple": "Lightweight and durable, ideal for weekend trips and overnight adventures.",
+    "SuggestedRetailPrice": 180.0,
+    "Brand": {
+      "Id": "2001",
+      "LogoSrc": "../images/logos/osprey-160x100.jpg",
+      "Name": "Osprey"
+    },
+    "ListPrice": 159.99,
+    "FinalPrice": 159.99
+  }
+]

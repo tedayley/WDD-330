@@ -1,0 +1,59 @@
+[
+  {
+    "Id": "HM001",
+    "NameWithoutBrand": "DoubleNest Hammock",
+    "Name": "ENO DoubleNest Hammock",
+    "Image": "../images/test.png",
+    "SizesAvailable": {},
+    "Colors": [
+      { "ColorCode": "01", "ColorName": "Blue/Gray" }
+    ],
+    "DescriptionHtmlSimple": "Lightweight double hammock perfect for camping and lounging.",
+    "SuggestedRetailPrice": 70.0,
+    "Brand": {
+      "Id": "3001",
+      "LogoSrc": "../images/logos/eno-160x100.jpg",
+      "Name": "ENO"
+    },
+    "ListPrice": 59.99,
+    "FinalPrice": 59.99
+  },
+  {
+    "Id": "HM002",
+    "NameWithoutBrand": "SingleNest Hammock",
+    "Name": "ENO SingleNest Hammock",
+    "Image": "../images/test.png",
+    "SizesAvailable": {},
+    "Colors": [
+      { "ColorCode": "02", "ColorName": "Green" }
+    ],
+    "DescriptionHtmlSimple": "Classic single hammock for solo adventures or relaxing in the backyard.",
+    "SuggestedRetailPrice": 60.0,
+    "Brand": {
+      "Id": "3001",
+      "LogoSrc": "../images/logos/eno-160x100.jpg",
+      "Name": "ENO"
+    },
+    "ListPrice": 49.99,
+    "FinalPrice": 49.99
+  },
+  {
+    "Id": "HM003",
+    "NameWithoutBrand": "Delta Lightweight Hammock",
+    "Name": "Delta Lightweight Hammock",
+    "Image": "../images/test.png",
+    "SizesAvailable": {},
+    "Colors": [
+      { "ColorCode": "03", "ColorName": "Orange" }
+    ],
+    "DescriptionHtmlSimple": "Ultra-light hammock for hiking and backpacking, easy to pack and set up.",
+    "SuggestedRetailPrice": 65.0,
+    "Brand": {
+      "Id": "3002",
+      "LogoSrc": "../images/logos/delta-160x100.jpg",
+      "Name": "Delta"
+    },
+    "ListPrice": 54.99,
+    "FinalPrice": 54.99
+  }
+]

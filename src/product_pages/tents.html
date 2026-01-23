@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sleep Outside | Tents</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <script type="module" src="../js/headerFooter.js"></script>
+  </head>
+
+  <body>
+    <header class="divider">
+      <div class="logo">
+        <img src="../images/noun_Tent_2517.svg" alt="Tent Logo" />
+        <a href="../index.html"> Sleep<span class="highlight">Outside</span></a>
+      </div>
+      <div class="cart">
+        <a href="../cart/index.html"></a>
+      </div>
+    </header>
+
+    <main class="divider">
+      <section class="products">
+        <h2>Top Products</h2>
+        <ul id="product-list" class="product-list"></ul>
+      </section>
+    </main>
+
+    <footer>
+      &copy;2025 ⛺ SleepOutside ⛺ WDD 330
+    </footer>
+
+    <!-- Pass category via query string -->
+    <script type="module">
+      import "../js/product-listing.js";
+      // simulate URL parameter for tents
+      const url = new URL(window.location);
+      url.searchParams.set("category", "tents");
+      history.replaceState(null, "", url); // update URL so JS picks it up
+    </script>
+  </body>
+</html>
