@@ -9,7 +9,7 @@ async function loadHeaderFooter() {
     const category = getCategoryFromURL();
 
     // Load the JSON dynamically based on category
-    const response = await fetch(`../public/Public_Json/${category}.json`);
+    const response = await fetch(`/Public_Json/${category}.json`);
     if (!response.ok) throw new Error("Product data load failed");
 
     const products = await response.json();
