@@ -49,7 +49,7 @@ function renderHeader(product, category) {
           <li><a href="../product-listing.html?category=tents">Tents</a></li>
           <li><a href="../product-listing.html?category=backpacks">Backpacks</a></li>
           <li class="cart-link">
-            <a href="../cart.html">Cart</a>
+            <a href="/src/cart/index.html">Cart</a>
           </li>
         </ul>
       </nav>
